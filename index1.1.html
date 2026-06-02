@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакти</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: #333;
+}
+
+/* Контейнер */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Заглавия */
+h1 {
+    text-align: center;
+    color: #4a4a8a;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #5555aa;
+}
+
+/* Карти */
+.card {
+    background: #f8f9ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Контактна информация */
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Форма */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Бутон */
+button {
+    background: #4a4a8a;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #333366;
+}
+
+/* Изображение */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Свържете се с нас</h1>
+
+<div class="card contact-info">
+    <h2>Контактна информация</h2>
+
+    <p>📞 Телефон: 0877016488</p>
+
+    <p>📧 Личен Email: 
+        <a href="mailto:todorov.bozhidar905@gmail.com">
+            todorov.bozhidar905@gmail.com
+        </a>
+    </p>
+
+    <p>📧 Email на сайта: 
+        <a href="mailto:conspects8A@abv.bg">
+            conspects8A@abv.bg
+        </a>
+    </p>
+</div>
+
+<div class="card">
+    <h2>Изпратете съобщение</h2>
+
+    <form>
+        <input type="text" placeholder="Вашето име" required>
+
+        <input type="email" placeholder="Вашият email" required>
+
+        <textarea placeholder="Вашето съобщение..." required></textarea>
+
+        <button type="submit">Изпрати</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>Нашият офис</h2>
+	<p>Бургас, Център, бул. Ст. Стамболов;</p>
+
+    <img alt="" height="672" src="72739962287366afac64dd9cc8764df1.jpg" width="1161">
+</div>
+
+</div>
+
+<footer>
+    Нашият ръководител на екип - господин Б. Тодоров</footer>
+
+<p><img height="901" src="1000065608.jpg" width="638"></p>
+
+</body>
+</html>
